@@ -965,7 +965,7 @@ body {
   transition: color 0.3s ease 0s;
 }
 .footer-nav__link:hover {
-  color: #2dc071;
+  color: #2091f9;
 }
 
 @media (max-width: 980px) {
