@@ -90,7 +90,7 @@ body {
             span,
             &::before,
             &::after {
-                background: #2dc071;
+                background: #b841e8;
             }
         }
     }
@@ -144,7 +144,7 @@ body {
         cursor: pointer;
         transition: color 0.3s ease 0s;
         &:hover {
-            color: #2dc071;
+            color: #b841e8;
             text-decoration: underline;
         }
     }
@@ -1090,7 +1090,7 @@ body {
         transition: color 0.3s ease 0s;
 
         &:hover{
-            color: #2091f9; //check
+            color: #b841e8; //check
         }
     }
 }
@@ -1158,10 +1158,11 @@ body {
     text-align: center;
     font-size: 125%; /* 20/16 */
     line-height: 100%; /* 20/20 */
-    transition: background 0.3s ease 0s;
+    transition: background 0.3s ease 0s, color 0.3s ease 0s;
 
     &:hover {
-        background: #f15b07;
+        background: #b841e8;
+        color: #ffffff;
     }
 }
 

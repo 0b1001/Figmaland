@@ -127,7 +127,7 @@ body {
   width: 12px;
 }
 .header__nav-button:hover span, .header__nav-button:hover::before, .header__nav-button:hover::after {
-  background: #2dc071;
+  background: #b841e8;
 }
 
 .mobile-menu .header__nav-bar {
@@ -167,7 +167,7 @@ body {
   transition: color 0.3s ease 0s;
 }
 .nav-bar__link:hover {
-  color: #2dc071;
+  color: #b841e8;
   text-decoration: underline;
 }
 
@@ -965,7 +965,7 @@ body {
   transition: color 0.3s ease 0s;
 }
 .footer-nav__link:hover {
-  color: #2091f9; /*check*/
+  color: #b841e8;
 }
 
 @media (max-width: 980px) {
@@ -1019,10 +1019,11 @@ body {
   text-align: center;
   font-size: 125%; /* 20/16 */
   line-height: 100%; /* 20/20 */
-  transition: background 0.3s ease 0s;
+  transition: background 0.3s ease 0s, color 0.3s ease 0s;
 }
 .button:hover {
-  background: #f15b07;
+  background: #b841e8;
+  color: #ffffff;
 }
 
 @media (max-width: 479.98px) {
